@@ -10,3 +10,6 @@ Based on what I was able to learn from the KOI definitions, I thought a good ini
 
 ## Model 2
 Added the orbital transit time, impact (distance from stellar object), planet radius (koi_prad),  planet temp (koi_teq), and star temp (koi_steff). Model accuracy increased slightly, but by looking at the random forest importance scores, I see that that first 4 variables have low importance. They will be removed and I will look for additional info in next model.
+
+## Model 3
+Adding more of the star properties while removing the initial model variables. Accuracy decreased slightly but was still around 50%.
