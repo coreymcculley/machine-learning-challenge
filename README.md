@@ -13,3 +13,7 @@ Added the orbital transit time, impact (distance from stellar object), planet ra
 
 ## Model 3
 Adding more of the star properties while removing the initial model variables. Accuracy decreased slightly but was still around 50%.
+
+## Model 4
+Adjusted the inputs. This model produced similar accuracy, but the precision and recall were much better. While still not acceptable (below 0.9), they are getting better.
+
